@@ -1,3 +1,5 @@
+![Localizeflow banner](../assets/banner.png)
+
 # Localizeflow
 
 Localizeflow is a GitHub-native automation organization
@@ -41,3 +43,7 @@ enabling continuous translation updates
 for large and fast-moving repositories.
 
 - https://github.com/Azure/co-op-translator
+
+## How it works (Architecture)
+
+![Localizeflow architecture](../assets/architecture.png)
