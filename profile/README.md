@@ -2,48 +2,130 @@
 
 # Localizeflow
 
-Localizeflow is a GitHub-native automation organization
-focused on operating and scaling multilingual documentation workflows
-for large, fast-moving repositories.
+Localizeflow is a GitHub-native localization infrastructure
+built to remove the operational burden of multilingual documentation.
 
-This organization maintains infrastructure and automation
-that keep documentation translations continuously in sync
-as source content evolves.
+We help developers, open-source maintainers,
+and early-stage teams adopt localization
+without reviewers, vendors, or complex workflows.
 
 🌐 https://localizeflow.com
 
 ---
 
-## What this organization does
+## The problem
 
-Documentation changes constantly.
-Translations often don’t.
+Localization is not difficult because of translation quality.
 
-We run automated localization workflows that:
-- detect documentation changes,
-- identify outdated translations,
-- regenerate them deterministically,
-- and deliver language-scoped pull requests via GitHub.
+It is difficult because of operations.
 
-The goal is to keep multilingual documentation accurate
-without adding manual maintenance overhead
-to contributors or maintainers.
+Most localization platforms are built on a single assumption:
+
+**Every translation must be reviewed and managed by humans.**
+
+This assumption leads to:
+- reviewer seat management
+- approval workflows and QA gates
+- vendor coordination
+- dedicated dashboards and project management overhead
+- expensive enterprise licensing
+
+As a result, localization becomes slow, costly,
+and accessible only to large enterprises.
+
+Most teams simply choose not to localize at all.
+
+---
+
+## Who Localizeflow is for
+
+Localizeflow is designed for teams that:
+- do not have dedicated reviewers
+- cannot justify vendor contracts
+- ship documentation frequently
+- want localization to run automatically in the background
+
+This includes:
+- open-source maintainers
+- indie developers
+- early-stage startups
+- fast-moving product teams
+
+These teams need localization the most,
+yet are least able to sustain traditional localization workflows.
+
+---
+
+## Our approach
+
+Localizeflow treats localization as infrastructure,
+not as a human-centric workflow.
+
+Once installed, Localizeflow continuously:
+- detects documentation changes
+- identifies outdated translations
+- regenerates them deterministically
+- delivers language-scoped pull requests via GitHub
+
+There are no reviewers to assign.
+No workflows to manage.
+No dashboards you are required to monitor.
+
+If you never open the UI again,
+Localizeflow is working as intended.
+
+---
+
+## Installation philosophy
+
+Most localization tools require:
+- API keys
+- YAML configuration
+- custom GitHub Actions
+- ongoing operational maintenance
+
+Localizeflow does not.
+
+Install the GitHub App.
+Select the documentation paths.
+Localization runs continuously.
+
+Localization should be something you *enable* once,
+not something you *operate* forever.
 
 ---
 
 ## Relationship to Co-op Translator
 
-The automation in this organization is built on
-**Co-op Translator**,
-a Microsoft open-source project under the Azure GitHub organization.
+Localizeflow is built on top of **Co-op Translator**,
+a Microsoft open-source translation engine
+maintained under the Azure GitHub organization.
 
-Localizeflow provides orchestration, scheduling,
-and operational layers around this open-source core,
-enabling continuous translation updates
-for large and fast-moving repositories.
+Co-op Translator provides the core translation capabilities.
 
-- https://github.com/Azure/co-op-translator
+Localizeflow adds:
+- orchestration and scheduling
+- execution reliability
+- GitHub-native delivery
+- operational abstraction
+
+Together, they enable localization
+that scales without human maintenance.
+
+https://github.com/Azure/co-op-translator
+
+---
+
+## How it works
+
+Localizeflow runs as a background automation layer
+that keeps translations continuously in sync
+as source documentation evolves.
+
+Documentation changes.
+Translations stay aligned.
 
 ## How it works (Architecture)
+
 
 ![Localizeflow architecture](../assets/architecture.png)
