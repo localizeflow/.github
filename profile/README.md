@@ -2,7 +2,7 @@
 
 # Localizeflow
 
-Localizeflow is a GitHub-native localization infrastructure
+Localizeflow is a GitHub-native localization automation infrastructure
 built to remove the operational burden of multilingual documentation.
 
 We help developers, open-source maintainers,
@@ -126,3 +126,4 @@ Documentation changes.
 Translations stay aligned.
 
 ![Localizeflow architecture](../assets/architecture.png)
+
