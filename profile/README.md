@@ -81,7 +81,8 @@ No workflows.
 No ongoing management.
 
 Once setup is complete,
-localization runs without requiring your attention.
+if you rarely need to open the UI again,
+it is working as intended.
 
 ---
 
@@ -135,5 +136,6 @@ Documentation changes.
 Translations stay aligned.
 
 ![Localizeflow architecture](../assets/architecture.png)
+
 
 
