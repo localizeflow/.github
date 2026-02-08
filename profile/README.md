@@ -125,7 +125,4 @@ as source documentation evolves.
 Documentation changes.
 Translations stay aligned.
 
-## How it works (Architecture)
-
-
 ![Localizeflow architecture](../assets/architecture.png)
