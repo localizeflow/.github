@@ -2,11 +2,13 @@
 
 # Localizeflow
 
-Localizeflow is a GitHub-native localization automation infrastructure
-built to remove the operational burden of multilingual documentation.
+Effortless localization automation for documentation.
 
-We help developers, open-source maintainers,
-and early-stage teams adopt localization
+Localizeflow is a GitHub-native automation infrastructure
+that removes the operational burden of multilingual documentation.
+
+Built for developers, open-source maintainers,
+and early-stage teams who want localization to run
 without reviewers, vendors, or complex workflows.
 
 🌐 https://localizeflow.com
@@ -15,35 +17,36 @@ without reviewers, vendors, or complex workflows.
 
 ## The problem
 
-Localization is not difficult because of translation quality.
+Localization is not blocked by translation quality.
 
-It is difficult because of operations.
+It is blocked by operations.
 
-Most localization platforms are built on a single assumption:
+Most localization platforms assume one thing:
 
 **Every translation must be reviewed and managed by humans.**
 
-This assumption leads to:
-- reviewer seat management
+That assumption creates:
+- reviewer management
 - approval workflows and QA gates
 - vendor coordination
-- dedicated dashboards and project management overhead
-- expensive enterprise licensing
+- dashboards and project overhead
+- enterprise-grade pricing
 
-As a result, localization becomes slow, costly,
-and accessible only to large enterprises.
+As a result, localization becomes slow, expensive,
+and inaccessible to most teams.
 
-Most teams simply choose not to localize at all.
+So teams decide not to localize at all.
 
 ---
 
-## Who Localizeflow is for
+## Who this is for
 
-Localizeflow is designed for teams that:
-- do not have dedicated reviewers
-- cannot justify vendor contracts
+Localizeflow is for teams that:
+- do not have reviewers
+- do not want vendor contracts
 - ship documentation frequently
-- want localization to run automatically in the background
+- do not want to spend time setting up localization workflows
+- want localization to run automatically
 
 This includes:
 - open-source maintainers
@@ -52,27 +55,33 @@ This includes:
 - fast-moving product teams
 
 These teams need localization the most,
-yet are least able to sustain traditional localization workflows.
+but cannot afford to operate or configure it.
 
 ---
 
 ## Our approach
 
-Localizeflow treats localization as infrastructure,
-not as a human-centric workflow.
+Localizeflow treats localization as infrastructure.
 
-Once installed, Localizeflow continuously:
+Not as a workflow.
+Not as a project.
+Not as a dashboard.
+
+During setup, you connect your repository
+and choose the documentation paths and languages.
+
+After that, Localizeflow continuously:
 - detects documentation changes
 - identifies outdated translations
 - regenerates them deterministically
-- delivers language-scoped pull requests via GitHub
+- opens language-scoped pull requests
 
-There are no reviewers to assign.
-No workflows to manage.
-No dashboards you are required to monitor.
+No reviewers.
+No workflows.
+No ongoing management.
 
-If you never open the UI again,
-Localizeflow is working as intended.
+Once setup is complete,
+localization runs without requiring your attention.
 
 ---
 
@@ -126,4 +135,5 @@ Documentation changes.
 Translations stay aligned.
 
 ![Localizeflow architecture](../assets/architecture.png)
+
 
