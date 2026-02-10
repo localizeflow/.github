@@ -19,25 +19,14 @@ without reviewers, vendors, or complex workflows.
 
 Localizeflow is built on top of **Co-op Translator**,
 
-a Microsoft open-source translation engine
-
-maintained under the Azure GitHub organization.
-
-Co-op Translator provides the core translation capabilities.
+which helps anyone read the latest educational repositories in the language they’re most comfortable with.
 
 Localizeflow adds:
 
 - orchestration and scheduling
-
 - execution reliability
-
 - GitHub-native delivery
-
 - operational abstraction
-
-Together, they enable localization
-
-that scales without human maintenance.
 
 https://github.com/Azure/co-op-translator
 
@@ -45,11 +34,7 @@ https://github.com/Azure/co-op-translator
 
 ## How it works
 
-Localizeflow runs as a background automation layer
-
-that keeps translations continuously in sync
-
-as source documentation evolves.
+Localizeflow runs as a background automation layer that keeps translations continuously in sync as source documentation evolves.
 
 Documentation changes.
 
