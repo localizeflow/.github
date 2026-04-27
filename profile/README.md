@@ -2,14 +2,12 @@
 
 # Localizeflow
 
-Effortless localization automation for documentation.
+Localizeflow is the production layer on top of Co-op Translator,
+built for large-scale multilingual documentation.
 
-Localizeflow is a GitHub-native automation infrastructure
-that removes the operational burden of multilingual documentation.
-
-Built for developers, open-source maintainers,
-and early-stage teams who want localization to run
-without reviewers, vendors, or complex workflows.
+It runs translation workflows beyond CI limits,
+keeps documentation in sync,
+and delivers updates through GitHub pull requests.
 
 🌐 https://localizeflow.com
 
@@ -17,16 +15,18 @@ without reviewers, vendors, or complex workflows.
 
 ## Relationship to Co-op Translator
 
-Localizeflow is built on top of **Co-op Translator**,
+Localizeflow builds on top of **Co-op Translator**.
 
-which helps anyone read the latest educational repositories in the language they’re most comfortable with.
+Co-op Translator enables translation.
 
-Localizeflow adds:
+Localizeflow makes it reliable and scalable in production.
 
-- orchestration and scheduling
-- execution reliability
-- GitHub-native delivery
-- operational abstraction
+It adds:
+
+- distributed workflow orchestration  
+- execution beyond CI constraints  
+- reliability for large translation workloads  
+- GitHub-native PR-based synchronization  
 
 https://github.com/Azure/co-op-translator
 
@@ -34,10 +34,15 @@ https://github.com/Azure/co-op-translator
 
 ## How it works
 
-Localizeflow runs as a background automation layer that keeps translations continuously in sync as source documentation evolves.
+Localizeflow runs as a background automation layer
+that keeps translations aligned with source documentation.
 
-Documentation changes.
+1. Detect changes in source documentation  
+2. Split translation jobs into distributed workloads  
+3. Run workflows beyond CI limits  
+4. Open pull requests with updated translations  
 
-Translations stay aligned.
+Documentation evolves.  
+Translations stay in sync.
 
 ![Localizeflow architecture](../assets/architecture.png)
